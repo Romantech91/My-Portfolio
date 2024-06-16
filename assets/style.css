@@ -1,10 +1,26 @@
-h1 {
-    font-size: 200%;
-    color: rgb(211, 142, 15);
-
+:root {
+    --orlight: rgb(211, 142, 15);
 }
 
 header {
     background-color: black;
-    
+    display: flex;
+    justify-content: space-between;
+    color: var(--orlight);
+}
+
+h1 {
+    display: flex;
+    font-size: 200%;
+
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    min-width: 300px;
+}
+
+nav ul:hover {
+    color:bisque;
 }
