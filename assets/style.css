@@ -39,7 +39,33 @@ nav ul:hover {
     padding: 0 10px;
     border-right: 1px solid black;
 } 
+
 img {
-    width: 100%;
+    width: 200%;
     height: 200px;
 }
+
+.image-container {
+   max-width: 100%;
+    max-height: 200px;
+    position: relative;
+    display: inline-block;
+  }
+
+  .text-bottom-right {
+    position: absolute;
+    bottom: 20px;
+    right: -110%;
+    background-color: rgba(0, 0, 0, 0.5);
+    color:  var(--orlight);
+    padding: 0px; 
+  }
+  .about-me {
+    font: bold;
+    color: var(--orlight);
+  }
+
+  .vl {
+    border-left: 2px solid var(--orlight);
+    height: 110px;
+  }
