@@ -65,7 +65,28 @@ img {
     color: var(--orlight);
   }
 
-  .vl {
-    border-left: 2px solid var(--orlight);
-    height: 110px;
-  }
+  .vertical-line-container {
+    display: flex;
+    align-items: flex-end;
+}
+
+.vertical-line {
+    border-left: 2px solid var(--orlight); /* Vertical line style */
+    height: 100px; /* Height of the vertical line */
+    margin: 0 10px; /* Margin to separate text from the line */
+}
+
+.text-left, .text-right {
+    flex: 1;/* Allow text to take up remaining space */
+}
+
+.text-left {
+    text-align: right; /* Align text on the left to the right */
+    color: var(--orlight);
+}
+
+.text-right {
+    text-align: left; /* Align text on the right to the left */
+    color: var(--orlight);
+}
+  
