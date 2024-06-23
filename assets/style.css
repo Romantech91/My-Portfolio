@@ -77,6 +77,12 @@ nav ul:hover {
   padding: 5px;
 }
 
+.vertical-line-container3 {
+  display: flex;
+  align-items: flex-end;
+  padding: 5px;
+}
+
 .vertical-line {
   border-left: 2px solid var(--orlight); /* Vertical line style */
   height: 100px; /* Height of the vertical line */
@@ -96,6 +102,13 @@ nav ul:hover {
 .text-right {
   text-align: left; /* Align text on the right to the left */
   color: var(--orlight);
+}
+
+.vertical-line-container3 .text-right li {
+  display: flex;
+  justify-content: flex-start;
+  min-width: 300px;
+  text-decoration-line: underline;
 }
 
 @media screen and (max-width: 992px) {
