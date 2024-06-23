@@ -1,92 +1,93 @@
 :root {
-    --orlight: rgb(211, 142, 15);
+  --orlight: rgb(211, 142, 15);
 }
 body {
-    background-color: black;
-    color: var(--orlight);
+  background-color: black;
+  color: var(--orlight);
 }
 
 header {
-    background-color: black;
-    display: flex;
-    justify-content: space-between;
-    color: var(--orlight);
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  color: var(--orlight);
 }
 
 h1 {
-    display: flex;
-    font-size: 200%;
-
+  display: flex;
+  font-size: 200%;
 }
 .colored-line {
-    border: 0;
-    height: 2px;
-    background-color: var(--orlight);
+  border: 0;
+  height: 2px;
+  background-color: var(--orlight);
 }
 
 nav ul {
-    display: flex;
-    justify-content: space-between;
-    min-width: 300px;
+  display: flex;
+  justify-content: space-between;
+  min-width: 300px;
 }
 
 nav ul:hover {
-    color:bisque;
+  color: bisque;
 }
 
 .separator {
-    display: inline-block;
-    padding: 0 10px;
-    border-right: 1px solid black;
-} 
+  display: inline-block;
+  padding: 0 10px;
+  border-right: 1px solid black;
+}
 
-img {
-    width: 200%;
-    height: 200px;
+.header-image {
+  width: 100%;
+  height: 100%;
 }
 
 .image-container {
-   max-width: 100%;
-    max-height: 200px;
-    position: relative;
-    display: inline-block;
-  }
+  /* max-width: 100%; */
+  width: 100%;
+  height: 200px;
+  position: relative;
+  display: inline-block;
+  border: 1px solid red;
+}
 
-  .text-bottom-right {
-    position: absolute;
-    bottom: 20px;
-    right: -110%;
-    background-color: rgba(0, 0, 0, 0.5);
-    color:  var(--orlight);
-    padding: 0px; 
-  }
-  .about-me {
-    font: bold;
-    color: var(--orlight);
-  }
+.text-bottom-right {
+  position: absolute;
+  bottom: 20px;
+  right: -110%;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: var(--orlight);
+  padding: 0px;
+}
+.about-me {
+  font: bold;
+  color: var(--orlight);
+}
 
-  .vertical-line-container {
-    display: flex;
-    align-items: flex-end;
+.vertical-line-container {
+  display: flex;
+  align-items: flex-end;
 }
 
 .vertical-line {
-    border-left: 2px solid var(--orlight); /* Vertical line style */
-    height: 100px; /* Height of the vertical line */
-    margin: 0 10px; /* Margin to separate text from the line */
+  border-left: 2px solid var(--orlight); /* Vertical line style */
+  height: 100px; /* Height of the vertical line */
+  margin: 0 10px; /* Margin to separate text from the line */
 }
 
-.text-left, .text-right {
-    flex: 1;/* Allow text to take up remaining space */
+.text-left,
+.text-right {
+  flex: 1; /* Allow text to take up remaining space */
 }
 
 .text-left {
-    text-align: right; /* Align text on the left to the right */
-    color: var(--orlight);
+  text-align: right; /* Align text on the left to the right */
+  color: var(--orlight);
 }
 
 .text-right {
-    text-align: left; /* Align text on the right to the left */
-    color: var(--orlight);
+  text-align: left; /* Align text on the right to the left */
+  color: var(--orlight);
 }
-  
